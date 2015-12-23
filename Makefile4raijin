@@ -1,0 +1,247 @@
+## -*- Makefile -*-
+##
+## User: bhupendra
+## Time: 29/05/2014 4:03:26 PM
+## Makefile created by Oracle Solaris Studio.
+##
+## This file is generated automatically.
+##
+
+
+#### Compiler and tool definitions shared by all build targets #####
+CCC = g++
+CXX = g++
+BASICOPTS = -g
+CCFLAGS = $(BASICOPTS)
+CXXFLAGS = $(BASICOPTS)
+CCADMIN = 
+
+
+# Define the target directories.
+TARGETDIR_main.cpp=build
+
+
+all: $(TARGETDIR_main.cpp)/main.cpp
+
+## Target: main.cpp
+CPPFLAGS_main.cpp = \
+	-I../calc_param_Feb2013/steps \
+	-I../simplyMapBase/hylib \
+	-I../simplyMapBase/rainlib \
+	-I../simplyMapBase/swlib
+OBJS_main.cpp =  \
+	$(TARGETDIR_main.cpp)/bcascade.o \
+	$(TARGETDIR_main.cpp)/BLFit_Unit1.o \
+	$(TARGETDIR_main.cpp)/BrokenLineClass.o \
+	$(TARGETDIR_main.cpp)/BrokenLineClass_dbz.o \
+	$(TARGETDIR_main.cpp)/CalculateParams.o \
+	$(TARGETDIR_main.cpp)/CalculateParams_dbz.o \
+	$(TARGETDIR_main.cpp)/cascade_params.o \
+	$(TARGETDIR_main.cpp)/climatology.o \
+	$(TARGETDIR_main.cpp)/declare_array.o \
+	$(TARGETDIR_main.cpp)/fftw_util.o \
+	$(TARGETDIR_main.cpp)/gasrv_2.o \
+	$(TARGETDIR_main.cpp)/new_io_utils.o \
+	$(TARGETDIR_main.cpp)/optical_flow.o \
+	$(TARGETDIR_main.cpp)/pmatch.o \
+	$(TARGETDIR_main.cpp)/simulate_cascade.o \
+	$(TARGETDIR_main.cpp)/simulate_u.o \
+	$(TARGETDIR_main.cpp)/smoothing.o \
+	$(TARGETDIR_main.cpp)/steps_utilities.o \
+	$(TARGETDIR_main.cpp)/stochastic_cascade.o \
+	$(TARGETDIR_main.cpp)/stochastic_cascade_experimental.o \
+	$(TARGETDIR_main.cpp)/valarray_convert.o \
+	$(TARGETDIR_main.cpp)/btime_mo.o \
+	$(TARGETDIR_main.cpp)/hyCommonSpheroid.o \
+	$(TARGETDIR_main.cpp)/hyImagePosition.o \
+	$(TARGETDIR_main.cpp)/hyPolarPosition.o \
+	$(TARGETDIR_main.cpp)/hyProjection.o \
+	$(TARGETDIR_main.cpp)/Kriging.o \
+	$(TARGETDIR_main.cpp)/MapBase.o \
+	$(TARGETDIR_main.cpp)/MapBaseControl.o \
+	$(TARGETDIR_main.cpp)/Args.o \
+	$(TARGETDIR_main.cpp)/Exceptions.o \
+	$(TARGETDIR_main.cpp)/Log.o \
+	$(TARGETDIR_main.cpp)/Mutex.o \
+	$(TARGETDIR_main.cpp)/amoeba_sw.o \
+	$(TARGETDIR_main.cpp)/GeneralUtils (Bhupendra Raut's conflicted copy 2013-02-11).o \
+	$(TARGETDIR_main.cpp)/GeneralUtils.o \
+	$(TARGETDIR_main.cpp)/ncio.o
+USERLIBS_main.cpp = /apps/fftw3/3.3.3/lib/libfftw3.so /apps/netcdf/4.2.1.1/lib/libnetcdf_c++4.so /apps/netcdf/4.2.1.1/lib/libnetcdf.so $(SYSLIBS_main.cpp) 
+DEPLIBS_main.cpp =     
+LDLIBS_main.cpp = $(USERLIBS_main.cpp)
+
+
+# Link or archive
+$(TARGETDIR_main.cpp)/main.cpp: $(TARGETDIR_main.cpp) $(OBJS_main.cpp) $(DEPLIBS_main.cpp)
+	$(LINK.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ $(OBJS_main.cpp) $(LDLIBS_main.cpp)
+
+
+# Compile source files into .o files
+$(TARGETDIR_main.cpp)/bcascade.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/bcascade.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/bcascade.cpp
+
+$(TARGETDIR_main.cpp)/BLFit_Unit1.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/BLFit_Unit1.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/BLFit_Unit1.cpp
+
+$(TARGETDIR_main.cpp)/BrokenLineClass.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/BrokenLineClass.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/BrokenLineClass.cpp
+
+$(TARGETDIR_main.cpp)/BrokenLineClass_dbz.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/BrokenLineClass_dbz.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/BrokenLineClass_dbz.cpp
+
+$(TARGETDIR_main.cpp)/CalculateParams.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/CalculateParams.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/CalculateParams.cpp
+
+$(TARGETDIR_main.cpp)/CalculateParams_dbz.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/CalculateParams_dbz.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/CalculateParams_dbz.cpp
+
+$(TARGETDIR_main.cpp)/cascade_params.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/cascade_params.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/cascade_params.cpp
+
+$(TARGETDIR_main.cpp)/climatology.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/climatology.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/climatology.cpp
+
+$(TARGETDIR_main.cpp)/declare_array.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/declare_array.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/declare_array.cpp
+
+$(TARGETDIR_main.cpp)/fftw_util.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/fftw_util.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/fftw_util.cpp
+
+$(TARGETDIR_main.cpp)/gasrv_2.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/gasrv_2.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/gasrv_2.cpp
+
+$(TARGETDIR_main.cpp)/new_io_utils.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/new_io_utils.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/new_io_utils.cpp
+
+$(TARGETDIR_main.cpp)/optical_flow.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/optical_flow.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/optical_flow.cpp
+
+$(TARGETDIR_main.cpp)/pmatch.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/pmatch.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/pmatch.cpp
+
+$(TARGETDIR_main.cpp)/simulate_cascade.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/simulate_cascade.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/simulate_cascade.cpp
+
+$(TARGETDIR_main.cpp)/simulate_u.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/simulate_u.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/simulate_u.cpp
+
+$(TARGETDIR_main.cpp)/smoothing.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/smoothing.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/smoothing.cpp
+
+$(TARGETDIR_main.cpp)/steps_utilities.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/steps_utilities.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/steps_utilities.cpp
+
+$(TARGETDIR_main.cpp)/stochastic_cascade.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/stochastic_cascade.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/stochastic_cascade.cpp
+
+$(TARGETDIR_main.cpp)/stochastic_cascade_experimental.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/stochastic_cascade_experimental.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/stochastic_cascade_experimental.cpp
+
+$(TARGETDIR_main.cpp)/valarray_convert.o: $(TARGETDIR_main.cpp) ../calc_param_Feb2013/steps/valarray_convert.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../calc_param_Feb2013/steps/valarray_convert.cpp
+
+$(TARGETDIR_main.cpp)/btime_mo.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/btime_mo.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/btime_mo.cpp
+
+$(TARGETDIR_main.cpp)/hyCommonSpheroid.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/hyCommonSpheroid.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/hyCommonSpheroid.cc
+
+$(TARGETDIR_main.cpp)/hyImagePosition.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/hyImagePosition.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/hyImagePosition.cc
+
+$(TARGETDIR_main.cpp)/hyPolarPosition.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/hyPolarPosition.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/hyPolarPosition.cc
+
+$(TARGETDIR_main.cpp)/hyProjection.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/hyProjection.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/hyProjection.cc
+
+$(TARGETDIR_main.cpp)/Kriging.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/Kriging.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/Kriging.cc
+
+$(TARGETDIR_main.cpp)/MapBase.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/MapBase.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/MapBase.cc
+
+$(TARGETDIR_main.cpp)/MapBaseControl.o: $(TARGETDIR_main.cpp) ../simplyMapBase/hylib/MapBaseControl.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/hylib/MapBaseControl.cc
+
+$(TARGETDIR_main.cpp)/Args.o: $(TARGETDIR_main.cpp) ../simplyMapBase/rainlib/Args.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/rainlib/Args.cc
+
+$(TARGETDIR_main.cpp)/Exceptions.o: $(TARGETDIR_main.cpp) ../simplyMapBase/rainlib/Exceptions.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/rainlib/Exceptions.cc
+
+$(TARGETDIR_main.cpp)/Log.o: $(TARGETDIR_main.cpp) ../simplyMapBase/rainlib/Log.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/rainlib/Log.cc
+
+$(TARGETDIR_main.cpp)/Mutex.o: $(TARGETDIR_main.cpp) ../simplyMapBase/rainlib/Mutex.cc
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/rainlib/Mutex.cc
+
+$(TARGETDIR_main.cpp)/amoeba_sw.o: $(TARGETDIR_main.cpp) ../simplyMapBase/swlib/amoeba_sw.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/swlib/amoeba_sw.cpp
+
+$(TARGETDIR_main.cpp)/GeneralUtils (Bhupendra Raut's conflicted copy 2013-02-11).o: $(TARGETDIR_main.cpp) ../simplyMapBase/swlib/GeneralUtils (Bhupendra Raut's conflicted copy 2013-02-11).cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/swlib/GeneralUtils (Bhupendra Raut's conflicted copy 2013-02-11).cpp
+
+$(TARGETDIR_main.cpp)/GeneralUtils.o: $(TARGETDIR_main.cpp) ../simplyMapBase/swlib/GeneralUtils.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/swlib/GeneralUtils.cpp
+
+$(TARGETDIR_main.cpp)/ncio.o: $(TARGETDIR_main.cpp) ../simplyMapBase/swlib/ncio.cpp
+	$(COMPILE.cc) $(CCFLAGS_main.cpp) $(CPPFLAGS_main.cpp) -o $@ ../simplyMapBase/swlib/ncio.cpp
+
+
+
+#### Clean target deletes all generated files ####
+clean:
+	rm -f \
+		$(TARGETDIR_main.cpp)/main.cpp \
+		$(TARGETDIR_main.cpp)/bcascade.o \
+		$(TARGETDIR_main.cpp)/BLFit_Unit1.o \
+		$(TARGETDIR_main.cpp)/BrokenLineClass.o \
+		$(TARGETDIR_main.cpp)/BrokenLineClass_dbz.o \
+		$(TARGETDIR_main.cpp)/CalculateParams.o \
+		$(TARGETDIR_main.cpp)/CalculateParams_dbz.o \
+		$(TARGETDIR_main.cpp)/cascade_params.o \
+		$(TARGETDIR_main.cpp)/climatology.o \
+		$(TARGETDIR_main.cpp)/declare_array.o \
+		$(TARGETDIR_main.cpp)/fftw_util.o \
+		$(TARGETDIR_main.cpp)/gasrv_2.o \
+		$(TARGETDIR_main.cpp)/new_io_utils.o \
+		$(TARGETDIR_main.cpp)/optical_flow.o \
+		$(TARGETDIR_main.cpp)/pmatch.o \
+		$(TARGETDIR_main.cpp)/simulate_cascade.o \
+		$(TARGETDIR_main.cpp)/simulate_u.o \
+		$(TARGETDIR_main.cpp)/smoothing.o \
+		$(TARGETDIR_main.cpp)/steps_utilities.o \
+		$(TARGETDIR_main.cpp)/stochastic_cascade.o \
+		$(TARGETDIR_main.cpp)/stochastic_cascade_experimental.o \
+		$(TARGETDIR_main.cpp)/valarray_convert.o \
+		$(TARGETDIR_main.cpp)/btime_mo.o \
+		$(TARGETDIR_main.cpp)/hyCommonSpheroid.o \
+		$(TARGETDIR_main.cpp)/hyImagePosition.o \
+		$(TARGETDIR_main.cpp)/hyPolarPosition.o \
+		$(TARGETDIR_main.cpp)/hyProjection.o \
+		$(TARGETDIR_main.cpp)/Kriging.o \
+		$(TARGETDIR_main.cpp)/MapBase.o \
+		$(TARGETDIR_main.cpp)/MapBaseControl.o \
+		$(TARGETDIR_main.cpp)/Args.o \
+		$(TARGETDIR_main.cpp)/Exceptions.o \
+		$(TARGETDIR_main.cpp)/Log.o \
+		$(TARGETDIR_main.cpp)/Mutex.o \
+		$(TARGETDIR_main.cpp)/amoeba_sw.o \
+		$(TARGETDIR_main.cpp)/GeneralUtils (Bhupendra Raut's conflicted copy 2013-02-11).o \
+		$(TARGETDIR_main.cpp)/GeneralUtils.o \
+		$(TARGETDIR_main.cpp)/ncio.o
+	$(CCADMIN)
+	rm -f -r $(TARGETDIR_main.cpp)
+
+
+# Create the target directory (if needed)
+$(TARGETDIR_main.cpp):
+	mkdir -p $(TARGETDIR_main.cpp)
+
+
+# Enable dependency checking
+.KEEP_STATE:
+.KEEP_STATE_FILE:.make.state.GNU-x86_64-Linux
+

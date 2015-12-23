@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/testdat/c_parms /Users/bhupendra/prog/testdat/sim/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/testdat/testrain/ /Users/bhupendra/prog/testdat/sim/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_param /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_param/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_parms/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"/Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/ /Users/bhupendra/CityProject/Model/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  5 6</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  5 6</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="MacPro" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+            <option name="gdb_follow_fork_mode" value="child"/>
+            <option name="gdb_init_file" value=""/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/sim_real/Future/SimA/c_parms_pmatch ~/Desktop/test- 1 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/sim_real/Future/SimA/c_parms_pmatch ~/Desktop/test-001</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/temp/c_parms/testprm ~/Desktop/test-001</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/temp/c_parms/testprm/ ~/Desktop/test-001</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/temp/c_parms/testprm/ ~/Desktop/test-002</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_test.txt ~/temp/c_parms_dbz/ ~/temp/test-dbz-002</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_dbz.txt ~/temp/c_parms_dbz/ ~/temp/test-dbz-010</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_dbz.txt ~/temp/c_parms_dbz/ </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_dbz.txt ~/temp/c_parms_dbz/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_dbz.txt ~/Desktop/temp/c_parms_dbz/ ~/Desktop/test-dbz</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" ~/Dropbox/prog/ACHD/erai_awap_out_dbz.txt ~/Desktop/temp/c_parms_dbz/ ~/Desktop/test-dbz</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="msg" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_parms/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"/Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/ /Users/bhupendra/CityProject/Model/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  5 6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" Users/bhupendra/DATA64/test  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" Users/bhupendra/DATA64/test/  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 /Users/bhupendra/DATA64/test/dbtest-</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 /Users/bhupendra/DATA64/test/dbtest-</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="raijin" type="1">
+      <toolsSet>
+        <developmentServer>bar565@raijin.nci.org.au:22</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_parms/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"/Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/ /Users/bhupendra/CityProject/Model/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  5 6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" Users/bhupendra/DATA64/test  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" Users/bhupendra/DATA64/test/  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 dbtest-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 /Users/bhupendra/DATA64/test/dbtest-</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test/  5 6 /Users/bhupendra/DATA64/test/dbtest-</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Earth" type="1">
+      <toolsSet>
+        <developmentServer>bar565@raijin.nci.org.au:22</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_param/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/prog/test64/mel/c_parms/ /Users/bhupendra/prog/test64/mel/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"/Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/StoRM-1.0/test/c_parms/ /Users/bhupendra/CityProject/Model/StoRM-1.0/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/ /Users/bhupendra/CityProject/Model/sim1/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/CityProject/Model/test/c_parms/  5 6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test  0 1 testrun-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test  0 1 /Users/bhupendra/DATA64/test/testrun-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test  1 5 /Users/bhupendra/DATA64/test/testrun-</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" /Users/bhupendra/DATA64/test  1 5 /Users/bhupendra/DATA64/test/testrun-</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

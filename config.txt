@@ -1,0 +1,68 @@
+#An example of  configuration file for HiDRUS-2015 program.
+#Do not use relative paths.
+##**WARNING: Do not leave blank lines in this file. Use # to mark the comments.
+#
+#
+#This (bias) feature id not implemented in the model.
+outFilePathPrefix = /home/bhupendra/SimTests/hidrus2/rundir/eRain-2008-10 ;
+pMatchPathPrefix = /home/bhupendra/SimTests/hidrus2/rundir/RainScans ;
+logFileName = /home/bhupendra/SimTests/hidrus2/rundir/log.txt ;
+prmFileName = /home/bhupendra/SimTests/hidrus2/rundir/inParms_erain_2008-10_hidrus2.txt ;
+#
+#
+#Simulation settings
+isHeader   = y ; y if header exists.
+nLevels     = 8 ; 
+nLags       = 2 ;
+Ens_IDNumber   = 1 ;  identification for the ensemble member.
+TimeStep_minute = 6 ;
+#
+#
+#
+#nline and samples used to define simulation domain.
+nlines      =256 ;
+nsamples    =256 ;
+lOne        = 20 ;
+#
+psize   = 1.0 ;
+Radar_Lat = -37.852 ;
+Radar_Lon =  144.752 ;
+CAPPI_Height = 1000.0 ;
+#
+# Cropping the output netcdf file
+# Many times when data is transformed from km to lat-lon grid,
+# several missing values are introduced at the boundaries. In the output
+# netcdf file we can remove those lines , usually latitudes.
+#crop_lat_n (top/north) and crop_lat_s (bottom/south) are the number of lines you would like to skip from the netcdf output.
+crop_lat_N = 11 ;
+crop_lat_S = 15 ;
+crop_lon_E = 0 ;
+crop_lon_W = 0 ;
+#
+#This sets attributes and dimension names for netcdf data structure.
+# variable names
+LAT_NAME= latitude;
+LON_NAME= longitude;
+REC_NAME= time;
+VAR_NAME= rain;
+#VAR_NAME_LONG= radar rain rate;
+#
+#
+# variable units
+VAR_UNITS = mm/hr;
+LAT_UNITS = degrees_north;
+LON_UNITS = degrees_east;
+REC_UNITS = seconds;
+REC_EPOCH = 1970-01-01;
+#
+#
+#other
+FILL_NAME = _FillValue;
+FILL_VAL = -999.0
+DEFLAT = 2;
+#Global Attributes:
+#
+#
+#Data description (no spaces).
+description = perfect_simulations
+

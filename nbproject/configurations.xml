@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/Array.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh</itemPath>
+      <itemPath>../swlib-15/GeneralUtils.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Log.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh</itemPath>
+      <itemPath>../../DRaWSC/STEPS/MersenneTwister.h</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh</itemPath>
+      <itemPath>../../DRaWSC/STEPS/bcascade.h</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/declare_array.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/domain2d.h</itemPath>
+      <itemPath>/usr/local/include/fftw3.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/fftw_util.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/gasrv_2.h</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/general.h</itemPath>
+      <itemPath>../swlib-15/hidrus15_params.h</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh</itemPath>
+      <itemPath>../swlib-15/ncio.hh</itemPath>
+      <itemPath>../../DRaWSC/STEPS/new_io_utils.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/optical_flow.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/pmatch.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/smoothing.h</itemPath>
+      <itemPath>../swlib-15/stats.hh</itemPath>
+      <itemPath>../../DRaWSC/STEPS/steps_defines.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/steps_utilities.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/stochastic_cascade.h</itemPath>
+      <itemPath>../../DRaWSC/STEPS/valarray_convert.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc</itemPath>
+      <itemPath>../swlib-15/GeneralUtils.cpp</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Log.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc</itemPath>
+      <itemPath>../../DRaWSC/STEPS/bcascade.cpp</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/declare_array.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/fftw_util.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/gasrv_2.cpp</itemPath>
+      <itemPath>../swlib-15/hidrus15_params.cpp</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc</itemPath>
+      <itemPath>../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>../swlib-15/ncio.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/new_io_utils.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/optical_flow.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/pmatch.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/smoothing.cpp</itemPath>
+      <itemPath>../swlib-15/stats.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/steps_utilities.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/stochastic_cascade.cpp</itemPath>
+      <itemPath>../../DRaWSC/STEPS/valarray_convert.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Makefile4raijin</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../StoRM-1.0/simplyMapBase/rainlib</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/hylib</pElem>
+            <pElem>/opt/sw/fftw-3.1.2/include</pElem>
+            <pElem>../swlib-15</pElem>
+            <pElem>../../DRaWSC/STEPS</pElem>
+          </incDir>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>fftw3</linkerLibLibItem>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="MacPro" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../StoRM-1.0/simplyMapBase/rainlib</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/hylib</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/opt/netcdf/include</pElem>
+            <pElem>../../DRaWSC/swlib-1</pElem>
+            <pElem>../../DRaWSC/STEPS</pElem>
+          </incDir>
+          <commandLine>-g</commandLine>
+        </ccTool>
+        <asmTool>
+          <commandlineTool>g++</commandlineTool>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/mkcasc_simulate_dbz</output>
+          <linkerAddLib>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/opt/netcdf/lib</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/opt/netcdf/lib</pElem>
+          </linkerDynSerch>
+          <commandlineTool>g++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibLibItem>fftw3</linkerLibLibItem>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-g</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+    </conf>
+    <conf name="msg" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../StoRM-1.0/simplyMapBase/rainlib</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/hylib</pElem>
+            <pElem>../../StoRM-1.0/calc_param_Feb2013/steps</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/swlib</pElem>
+            <pElem>/opt/sw/fftw-3.2.1/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/mkcasc_apr2014</output>
+          <linkerAddLib>
+            <pElem>/usr/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>fftw3</linkerLibLibItem>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+    </conf>
+    <conf name="raijin" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <standard>4</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../StoRM-1.0/simplyMapBase/rainlib</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/hylib</pElem>
+            <pElem>/apps/fftw3/3.3.3/include</pElem>
+            <pElem>/apps/netcdf/4.2.1.1/include</pElem>
+            <pElem>../../DRaWSC/STEPS</pElem>
+            <pElem>../swlib-15</pElem>
+          </incDir>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hidrus2</output>
+          <linkerAddLib>
+            <pElem>/apps/netcdf/4.2.1.1/lib</pElem>
+            <pElem>/apps/fftw3/3.3.3/lib</pElem>
+            <pElem>/apps/gcc/4.6.4/lib64</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+            <linkerLibLibItem>fftw3</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+    </conf>
+    <conf name="Earth" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>4</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../StoRM-1.0/simplyMapBase/rainlib</pElem>
+            <pElem>../../StoRM-1.0/simplyMapBase/hylib</pElem>
+            <pElem>/opt/netcdf/include</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>../../DRaWSC/STEPS</pElem>
+            <pElem>../swlib-15/</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hidrus15_dbz</output>
+          <linkerAddLib>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/opt/netcdf/lib</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/opt/netcdf/lib</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>fftw3</linkerLibLibItem>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+            <linkerLibLibItem>netcdf_c++4</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../DRaWSC/STEPS/MersenneTwister.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/bcascade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/declare_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/domain2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/fftw_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/gasrv_2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/new_io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/optical_flow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/pmatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/steps_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/stochastic_cascade.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../DRaWSC/STEPS/valarray_convert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Array.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/Kriging.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBase.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/MapBaseControl.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/btime_mo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/general.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyCommonSpheroid.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyFieldInterpolation.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyImagePosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyMapParameters.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyPolarPosition.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/hylib/hyProjection.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Exceptions.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Log.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.cc"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../../StoRM-1.0/simplyMapBase/rainlib/Mutex.hh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/GeneralUtils.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/hidrus15_params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/ncio.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../swlib-15/stats.hh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/local/include/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile4raijin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
